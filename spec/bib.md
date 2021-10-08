@@ -1,22 +1,21 @@
 # BibTeX as S-expressions
 
-
 ## Known entry types
 
-article
-book
-booklet
-conference
-inbook
-incollection
-inproceedings
-manual
-mastersthesis
-misc
-phdthesis
-proceedings
-techreport
-unpublished
+* `article`
+* `book`
+* `booklet`
+* `conference`
+* `inbook`
+* `incollection`
+* `inproceedings`
+* `manual`
+* `mastersthesis`
+* `misc`
+* `phdthesis`
+* `proceedings`
+* `techreport`
+* `unpublished`
 
 
 ## Person
