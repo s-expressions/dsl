@@ -76,3 +76,5 @@ and last name for indexing and different styles of display.
 ## Rerefences
 
 * [Falsehoods Programmers Believe About Names](https://www.kalzumeus.com/2010/06/17/falsehoods-programmers-believe-about-names/)
+
+* BibTeX and sorting names with `von' prefixes. [[Google Groups](https://groups.google.com/g/comp.text.tex/c/pQCPH3fwGSE)]
