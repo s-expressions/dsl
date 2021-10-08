@@ -51,7 +51,7 @@ and last name for indexing and different styles of display.
  (type book)
  (field
   (author (person (last-name "Abramowitz") (other-names "Milton")))
-  (author (person (last-name "Stegun) (other-names "Irene A.")))
+  (author (person (last-name "Stegun") (other-names "Irene A.")))
   (title "Handbook of Mathematical Functions with Formulas, Graphs, and Mathematical Tables")
   (publisher "Dover")
   (year 1964)
