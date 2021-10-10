@@ -1,0 +1,7 @@
+(spec
+ (id "low-level-constants")
+ (status draft)
+ (title "Personal name")
+ (author "Lassi Kortela")
+ (keywords computing)
+ (draft-date "2021-10-10"))
