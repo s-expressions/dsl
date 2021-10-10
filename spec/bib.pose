@@ -1,0 +1,7 @@
+(spec
+ (id "bib")
+ (status draft)
+ (title "Bibliography")
+ (author "Lassi Kortela")
+ (keywords civil)
+ (draft-date "2021-10-10"))

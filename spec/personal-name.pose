@@ -1,0 +1,7 @@
+(spec
+ (id "personal-name")
+ (status draft)
+ (title "Personal name")
+ (author "Lassi Kortela")
+ (keywords civil)
+ (draft-date "2021-10-10"))
