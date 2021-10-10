@@ -1,6 +1,17 @@
-# BibTeX as S-expressions
+# S-expression standard: Bibliography
 
-## Known entry types
+## Status
+
+Draft
+
+## Abstract
+
+This document defines a S-expression format for bibliographies of
+academic papers. It is based on the popular BibTeX format.
+
+## Rationale
+
+### Known entry types
 
 * `article`
 * `book`
@@ -17,31 +28,29 @@
 * `techreport`
 * `unpublished`
 
-## People's names
+## Specification
 
 ```Lisp
-(person
- (last-name "John")
- (other-names "P. Q. Public"))
+(define-schema bib
 
-(person
- (last-name "von Neumann")
- (other-names "John")
- (sort-key "von Neumann"))
+  (entry
+    `(entry
+       (cite ,string)
+       (type ,symbol)
+       (fields ,@field)))
 
-(person
- (last-name "von Ettingshausen")
- (other-names "Andreas" "Freiherr")
- (sort-key "Ettingshausen"))
+  (field
+    `(,symbol ,@field-value-part))
 
-(person
- (full-name "鮑岳橋")
- (sort-key "Yueqiao"))
+  (field-value-part
+    (or symbol
+        string
+        (integer 0)
+        person))
+
+   (person
+     (import standard.s-expressions.org/person)))
 ```
-
-`(person ...) `can be used inside `(author ...)` and `(editor ...)` to
-give a person's name in a way that makes it easy to separate the first
-and last name for indexing and different styles of display.
 
 ## Examples
 
@@ -49,7 +58,7 @@ and last name for indexing and different styles of display.
 (entry
  (cite "abramowitz+stegun")
  (type book)
- (field
+ (fields
   (author (person (last-name "Abramowitz") (other-names "Milton")))
   (author (person (last-name "Stegun") (other-names "Irene A.")))
   (title "Handbook of Mathematical Functions with Formulas, Graphs, and Mathematical Tables")
