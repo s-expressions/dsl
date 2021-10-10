@@ -1,0 +1,7 @@
+(spec
+ (id "ansible")
+ (status draft)
+ (title "Ansible")
+ (author "Lassi Kortela")
+ (keywords computing)
+ (draft-date "2021-10-10"))
