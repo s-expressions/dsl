@@ -36,7 +36,7 @@ and collation is provided for all names.
 
 ## Rerefences
 
-* [Falsehoods Programmers Believe About Names](https://www.kalzumeus.com/2010/06/17/falsehoods-programmers-believe-about-names/)
+* [Falsehoods Programmers Believe About Names](https://www.kalzumeus.com/2010/06/17/falsehoods-programmers-believe-about-names/). Patrick McKenzie. 2010-06-17.
 
 * [Against Structured Names And Telephone Numbers](https://docs.google.com/document/d/1Of_rL8gMtHcfPaE5DfZ1xahrOtOaxFEHiQkcxvvR3lY/edit). John Cowan. 2009-04-22.
 
