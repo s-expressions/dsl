@@ -49,3 +49,5 @@ Argument names and types, as well as return types, can be given.
 ```
 
 ## Rerefences
+
+[Common Lisp HyperSpec, section 3.4 Lambda Lists](http://www.lispworks.com/documentation/HyperSpec/Body/03_d.htm)
