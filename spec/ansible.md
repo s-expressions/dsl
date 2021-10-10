@@ -71,4 +71,40 @@ playbooks.
        (content ,string))))
 ```
 
+## Examples
+
+```Lisp
+(ansible
+
+ (options)
+
+ (groups
+  (group
+   (name example-hosts)
+   (hosts
+    (host
+     (name localhost)
+     (vars
+      (var ansible-host "localhost"))))))
+
+ (playbooks
+  (playbook
+   (name hello)
+   (hosts example-hosts)
+   (become true)
+   (roles
+    write-hello-world)))
+
+ (roles
+
+  (role
+   (name write-hello-world)
+   (tasks
+    (task
+     (title "write a hello file to /tmp")
+     (copy
+      (dest "/tmp/hello")
+      (content "Hello world")))))))
+```
+
 ## Rerefences
