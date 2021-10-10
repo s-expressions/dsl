@@ -77,4 +77,12 @@ and last name for indexing and different styles of display.
 
 * [Falsehoods Programmers Believe About Names](https://www.kalzumeus.com/2010/06/17/falsehoods-programmers-believe-about-names/)
 
+* [BibTeX sorting and name prefixes](https://texfaq.org/FAQ-bibprefixsort)
+
 * BibTeX and sorting names with `von' prefixes. [[Google Groups](https://groups.google.com/g/comp.text.tex/c/pQCPH3fwGSE)]
+
+[Names (texhelp)](https://nwalsh.com/tex/texhelp/bibtx-23.html). Norman Walsh.
+
+[Citation Style Language 1.0.1 Specification](https://docs.citationstyles.org/en/1.0.1/specification.html). Zelle, Bennett, D’Arcus.
+
+[Against Structured Names And Telephone Numbers](https://docs.google.com/document/d/1Of_rL8gMtHcfPaE5DfZ1xahrOtOaxFEHiQkcxvvR3lY/edit). John Cowan. 2009-04-22.
