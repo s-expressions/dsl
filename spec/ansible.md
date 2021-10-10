@@ -11,6 +11,25 @@ playbooks.
 
 ## Rationale
 
+Ansible is a popular tool for remotely configuring operating systems
+and application software on servers and other computers. It uses a
+configuration language that is mostly declarative. However, parts of
+the language are imperative for the sake of practicality.
+
+The native format for an Ansible configuration is a directory tree
+with many subdirectories, most of them containing little YAML files.
+Some strings in the YAML files are expanded as Jinja templates.
+
+A sprawling directory tree with many small files is unwieldy for to
+maintain and the nested syntaxes of YAML and Jinja, each with its own
+irregularities, is difficult to keep under one's intellectual control.
+
+We believe that Ansible's robust module set is much better designed
+than its ad hoc configuration syntax, and that the syntax problem is
+effectively solved by a simple and consistent S-expression wrapper.
+
+## Specification
+
 ```Lisp
 (define-schema ansible
 
